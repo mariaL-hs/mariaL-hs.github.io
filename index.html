@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Som Web</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
+    <meta name="description" content="Página de apresentação musical do artista Bbno$">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--nav bar-->
+    <header>
+        <nav class="navbar navbar-expand-lg mb-0 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-3">SomWeb</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link zoom-effect" aria-current="page" href="#sobre">Sobre</a>
+                        <a class="nav-link zoom-effect" href="#albuns">Álbuns</a>
+                        <a class="nav-link zoom-effect" href="#shows">Shows</a>
+                        <a class="nav-link zoom-effect" href="#ouvir">Gêneros Musicais</a>
+                        <a class="nav-link zoom-effect" href="#">Outros Artistas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- informações do artista -->
+    <section class="bg-image" id="sobre">
+        <div class="artist-container">
+                <div class="artist-info-container">
+                    <div class="artist-image-container">
+                        <img src="img/noBbnos.png" alt="Alexander Gumuchian">
+                    </div>
+                    <h2>Bbon$</h2>
+                    <div class="artist-bio">
+                        Alexander Gumuchian, mais conhecido como Bbno$ é um rapper, cantor e compositor canadense.
+                        Nasceu em
+                        Vancouver, no dia 30 de junho de 1995. Bbno$ é conhecido por seu single "Lalala", lançado em
+                        2019 em
+                        parceria com o produtor Y2K. A canção alcançou mais de 720 milhões de streams no Spotify.
+                    </div>
+                    <div class="artist-quote">
+                        "Let me live my life, baby, c'est la vie" - C'est La Vie (part. Rich Brian)
+                    </div>
+                    <div class="button-wrapper">
+                        <a href="https://www.youtube.com/@bbnomoney" class="listen-button" target="_blank">
+                            Ouvir Agora
+                        </a>
+                    </div>
+                </div>
+                <div class="othersInfo">
+                    <div>
+                        <h4 class="mb-2 mt-3" style="font-size: 1.4rem;">3 Melhores Músicas</h4>
+                        <ul class="list-group mb-3">
+                            <div class="title-divider" style="width: 75%; height: 2px; background-color: white;"></div>
+                            <li class="list-group-item">It boy</li>
+                            <li class="list-group-item">Godness Gracios</li>
+                            <li class="list-group-item">C'est La Vie</li>
+                        </ul>
+                        <h4 class="mb-2 mt-5" style="font-size: 1.4rem;">3 Curiosidades</h4>
+                        <ul class="list-group mb-3">
+                            <div class="title-divider" style="width: 50%; height: 2px; background-color: white;"></div>
+                            <li class="list-group-item">Durante sua infância, bbno$ recebeu educação domiciliar antes de
+                                ingressar no ensino médio. </li>
+                            <li class="list-group-item">Antes de seguir a carreira musical, bbno$ estudava cinesiologia
+                                (o
+                                estudo do movimento do corpo humano) e queria ser cientista. Mas decidiu largar tudo
+                                para
+                                focar na música.</li>
+                            <li class="list-group-item"> Ele é conhecido por não se levar a sério, tanto nas músicas
+                                quanto
+                                na vida. Em entrevistas, ele já disse que só quer fazer música divertida e não liga para
+                                status ou dinheiro.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- albuns-->
+    <section class="background2 text-center pt-4">
+        <h5>Álbuns</h5>
+        <div class="title-divider" style="width: 25%; height: 2px; background-color: white;"></div>
+        <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--section-blue);">
+              Gêneros Musicais
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#rap">Hip-Hop/Rap</a></li>
+              <li><a class="dropdown-item" href="#alternativa">Alternativa/Indie</a></li>
+            </ul>
+          </div>
+        <div class="d-flex flex-row justify-content-center gap-2 mt-4" id="albuns">
+            <div class="p-2 rounded w-25">
+                <div class="album">
+                    <img src="img/babyGravy3.jpg" alt="Baby Gravy 3" class="img-fluid rounded mt-3">
+                    <h4 class="titulos">Baby Gravy 3</h4>
+                </div>
+            </div>
+            <div class="p-2 rounded w-25">
+                <div class="album">
+                    <img src="img/babyGravy.jpg" alt="Baby Gravy 2" class="img-fluid mt-3 rounded">
+                    <h4 class="titulos">Baby Gravy 2</h4>
+                </div>
+            </div>
+            <div class="p-2 rounded w-25">
+                <div class="album">
+                    <img src="img/bbSteps.jpg" alt="Baby Steps" class="img-fluid mt-3 rounded">
+                    <h4 class="titulos">Baby Steps</h4>
+                </div>
+            </div>
+            <div class="p-2 rounded w-25">
+                <div class="album">
+                    <img src="img/bagOrDie.jpg" alt="Bag or Die" class="img-fluid mt-3 rounded">
+                    <h4 class="titulos">Bag or Die</h4>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center gap-2 mt-4">
+            <div class="p-2 rounded w-25">
+                <div class="album">
+                    <img src="img/eatYaVeggies.jpg" alt="Eat Ya Veggies" class="img-fluid mt-3 rounded">
+                    <h4 class="titulos">Eat Ya Veggies</h4>
+                </div>
+            </div>
+            <div class="p-2 rounded w-25">
+                <div class="album">
+                    <img src="img/goodLuckHaveFun.jpg" alt="Good Luck Have Fun" class="img-fluid mt-3 rounded">
+                    <h4 class="titulos">Good Luck Have Fun</h4>
+                </div>
+            </div>
+            <div class="p-2 rounded w-25 ">
+                <div class="album">
+                    <img src="img/iDontCare.jpg" alt="I Don't Care" class="img-fluid mt-3 rounded">
+                    <h4 class="titulos">I Don't Care</h4>
+                </div>
+            </div>
+            <div class="p-2 rounded w-25 ">
+                <div class="album">
+                    <img src="img/recess.jpg" alt="Recess" class="img-fluid mt-3 rounded">
+                    <h4 class="titulos">Recess</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--shows-->
+    <section class="bg-image" id="shows">
+        <div class="container text-center overflow-hidden p-4 ">
+            <h5>Shows</h5>
+            <div class="title-divider" style="width: 25%; height: 2px; background-color: white;"></div>
+            <div class="container text-center my-5">
+                <h1 class="fw-bold" style="color: white;">It's Pronounced Baby No Money Tour</h1>
+            </div>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card text-center p-3">
+                            <h3>21/04/2025</h3>
+                            <p>Dublin, Irlanda</p>
+                            <p>57 Middle Abbey Street</p>
+                            <p>Bbno$</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center p-3">
+                            <h3>22/04/2025</h3>
+                            <p>Dublin, Irlanda</p>
+                            <p>57 Middle Abbey Street</p>
+                            <p>Bbno$</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center p-3">
+                            <h3>24/04/2025</h3>
+                            <p>Glasgow, Reino Unido</p>
+                            <p>100 Eastvale Place, G3 8QG</p>
+                            <p>Bbno$</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center p-3">
+                            <h3>25/04/2025</h3>
+                            <p>Glasgow, Reino Unido</p>
+                            <p>100 Eastvale Place, G3 8QG</p>
+                            <p>Bbno$</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center p-3">
+                            <h3>27/04/2025</h3>
+                            <p>London, Reino Unido</p>
+                            <p>Charing Cross Rd</p>
+                            <p>Bbno$</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center p-3">
+                            <h3>28/04/2025</h3>
+                            <p>London, Reino Unido</p>
+                            <p>Charing Cross Rd</p>
+                            <p>Bbno$</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center p-3">
+                            <h3>30/04/2025</h3>
+                            <p>Manchester, Reino Unido</p>
+                            <p>Em breve</p>
+                            <p>Bbno$</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center p-3">
+                            <h3>03/05/2025</h3>
+                            <p>Tiburg, Países Baixos</p>
+                            <p>Em breve</p>
+                            <p>Bbno$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--gêneros musicais-->
+    <section class="genre-section text-center py-5 background2" id="ouvir">
+        <div class="container">
+            <header class="section-header mb-5">
+                <h5 class="display- text-white mb-3">Gêneros Musicais Por Álbum</h5>
+                <div class="title-divider" style="width: 50%; height: 2px; background-color: white;"></div>
+            </header>
+
+            <!--rap-->
+            <div class="genre-category mb-5" id="rap">
+                <h4 class="genre-title">Hip-Hop/Rap</h4>
+                <div class="album-list" color>
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mSDVV7asr1lmZdUbOTMZjmPqVbErukoEA"
+                            class="album-link" target="_blank">
+                            Baby Gravy 3
+                        </a>
+                    </div>
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kLr1TVxKZisBCiUuEFRmPFj2Ntou2nMLc"
+                            class="album-link" target="_blank">
+                            Baby Gravy 2
+                        </a>
+                    </div>
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mHKZMNPjMsdm0aJ7gdFEtYXoyTESPIKv0"
+                            class="album-link" target="_blank">
+                            Bag or Die
+                        </a>
+                    </div>
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mOyqTT3xZVeIOn-Grq0dba3VdJGbEXKhs"
+                            class="album-link" target="_blank">
+                            Good Luck Have Fun
+                        </a>
+                    </div>
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mMtpAwQOVC6C497RqSV1BakGsbFBUcdhg"
+                            class="album-link" target="_blank">
+                            I Don't Care
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--alternativa -->
+            <div class="genre-category mb-5" id="alternativa">
+                <h4 class="genre-title">Alternativa/Indie</h4>
+                <div class="album-list color">
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mFyXQ4ZryBMZLotif64OTyC_Cc6oskBnU"
+                            class="album-link" style="color: #122c4f;" target="_blank">
+                            Baby Steps
+                        </a>
+                    </div>
+                    <div class="album-item">
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_k95c8frEr-pH7rY1SfYk__gFX6wwGmfUs"
+                            class="album-link" target="_blank" style="color: #122c4f;">
+                            Recess
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" style="height: 35px;">
+        <p>&copy;
+            Maria Luiza Hames;
+            Trabalho Desenvolvimento Web -
+            Engenharia de Software 1A
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
